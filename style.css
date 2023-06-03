@@ -1,17 +1,20 @@
 body{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin: 0;
+    padding: 0;
+    min-height: 100vh;
 }
 
 .header{
     display: flex;
-    width: 100%;
     justify-content: space-between;
+    align-self: stretch;
     background-color: #1f2937;
     padding: 10px 150px;
+    padding-bottom: 24px;
     /* justify-content: center; */
 }
 
@@ -37,11 +40,12 @@ a {
 /* Hero section */
 .hero{
     display: flex;
-    padding: 50px 100px;
+    padding: 10px 150px;
     background-color: #1f2937;
-    width: 100%;
-    justify-content: center;
-    gap: 15px;
+    align-self: stretch;
+    /* width: 100%; */
+    justify-content: space-between;
+    /* gap: 15px; */
 }
 
 .hero_image {
@@ -95,11 +99,24 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 10px 150px;
+    align-self: stretch;
 }
 
 .cards{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.cards_card{
+    align-self:flex-start;
+    justify-self: center;
+    flex: 1;
+    text-align: center;
 }
 
 h2{
@@ -111,7 +128,19 @@ h2{
 .cards_card img{
     border: #3882F6 2px solid;
     border-radius: 6px;
-    height: 50px;
-    width: auto;
+    height: 150px;
+    width: 200px;
 }
 
+.cards_card p{   
+    /* text-align: center; */
+    padding: 6px 20px;
+}
+
+
+
+/* Footer section */
+
+.footer{
+    margin-top: auto;
+}
