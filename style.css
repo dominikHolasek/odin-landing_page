@@ -84,7 +84,8 @@ h1{
 
 .hero_left p,
 a,
-.footer{
+.footer,
+.action-text p{
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -190,9 +191,8 @@ h2{
 }
 h3{
     margin-bottom: 5px;
+    color: #E5E7EB;
 }
-
-
 
 /* Footer section */
 
